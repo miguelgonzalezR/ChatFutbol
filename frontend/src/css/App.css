@@ -1,0 +1,34 @@
+:root {
+    --main-colour: #00572f94;
+    --secondary-colour: #e0e1dd;
+    --third-colour: #00572f;
+}
+  
+body {
+    font-family: "Roboto Slab";
+    margin: 0;
+    padding: 0;
+}
+  
+.chat-container {
+    /* max-width: 500px;
+    margin: 10% auto;
+    border: 1px solid #ccc; */
+    height: 100vh;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* background-color: #212121; */
+    background-image: url('https://cdn.discordapp.com/attachments/943505631325868119/1297379517794615376/the-ball-sport-football-russia-wallpaper-preview_2.png?ex=6715b655&is=671464d5&hm=08ad52437d1d4e79244095da8a63c62548b3c4e65b80b39bc37574dbabe8db23&');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  
+.chat-title {
+    background-color: var(--main-colour);
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+  
